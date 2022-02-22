@@ -12,6 +12,7 @@
             <p class="card-text"><?= $art->contenu ?></p>
             <p class="card-text"><?= $art->auteur ?></p>
             <p class="card-text"><?= $art->date_de_publication ?></p>
+            <a href="routeur.php?route=details-article&id=<?= $art->id ?>"> Details </a>
         </div>
     </div>
   <?php } ?>

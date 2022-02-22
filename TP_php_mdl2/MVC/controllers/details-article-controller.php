@@ -1,4 +1,5 @@
 <?php
+echo "bonjour";
 if (empty($_GET['id'])) die('Erreur 404');
 
 include_once __DIR__ . '/../models/Article.php';

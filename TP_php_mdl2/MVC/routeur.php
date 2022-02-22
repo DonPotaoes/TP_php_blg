@@ -2,7 +2,6 @@
 
 include __DIR__ .'/../config.php';
 
-include_once 'functions.php';
 
 include_once 'models/SimpleOrm.php';
 $conn = new mysqli(DATABASE_HOST, DATABASE_USER, DATABASE_PASSWORD);
