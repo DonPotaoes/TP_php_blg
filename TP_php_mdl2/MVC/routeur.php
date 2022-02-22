@@ -25,4 +25,8 @@ switch ($route) {
         include __DIR__ . '/controllers/articles-controller.php';
         liste();
         break;
+
+    case 'details-article':
+        include __DIR__ . '/controllers/details-article-controller.php';
+        break;
 }
